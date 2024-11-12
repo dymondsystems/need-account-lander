@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Acoount info</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  .container{
+  padding: 100px;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2 style="color: ;">You'll need an account to do that...</h2>
+  <p>Enter your email and we'll notify you when we launch</p>
+  
+ 
+ 
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+   
+   </div>
+    <button type="submit" class="btn btn-success">GO!</button>
+  </form>
+
+</label>
+<br>
+<center><p> OR</p></center>
+
+<h2>Become a beta tester!</h2>
+<p>Get invited for early access and benifeits like free paid plans forever!</p> 
+    
+   
+        <center><a href="/accountinfo" class="btn btn-primary btn-lg">Request invite</a></center>
+      </div>
+      
+
+ 
+
+</body>
+</html>
